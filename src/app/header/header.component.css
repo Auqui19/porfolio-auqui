@@ -1,4 +1,7 @@
 header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   padding: 0px;
   margin-bottom: 30px;
 }
@@ -13,6 +16,7 @@ header p {
 }
 :host.pc header {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   margin-bottom: 60px;
 }
